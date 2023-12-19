@@ -48,4 +48,6 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10")
     implementation("com.google.firebase:firebase-auth:22.3.0")
 
+    implementation("com.github.bumptech.glide:glide:4.12.0")
+
 }
