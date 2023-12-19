@@ -13,6 +13,15 @@
         android:theme="@style/Theme.DeliveryApp"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.BaseActivity"
             android:exported="false" />
         <activity
