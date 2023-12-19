@@ -12,6 +12,8 @@ import uz.jasurbekruzimov.deliveryapp.R;
 public class BaseActivity extends AppCompatActivity {
     FirebaseAuth mAuth;
     FirebaseDatabase database;
+    // TAG
+    private static final String TAG = "DeliveryApp";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
